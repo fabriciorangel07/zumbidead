@@ -6,6 +6,7 @@ const Tabelas = props => {
 
     useEffect(() => {
         getLlinhas();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     function getLlinhas() {
@@ -13,6 +14,7 @@ const Tabelas = props => {
         sorted.sort((a, b) => {
             return b.point - a.point;
         })
+        // eslint-disable-next-line array-callback-return
         return sorted.map((item, i) => {
             if (i < 5) {
                 return (
