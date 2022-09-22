@@ -20,7 +20,7 @@ const Tabelas = props => {
                 return (
                     <>
                         <tr className={i % 2 === 0 ? "par" : "impar"} key={i}>
-                            <td> {item.name.toUpperCase()} </td>
+                            <td> {item.name} </td>
                             <td className="tbright"> {item.point} pts </td>
                         </tr>
                     </>

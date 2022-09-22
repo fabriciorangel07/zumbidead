@@ -26,7 +26,7 @@ export default function Dash() {
                     <div className="graf3">
                         <button onClick={() => getApi()} className="btn"><span>Atualizar</span></button>
                         <a
-                            href="https://zumbidead.azurewebsites.net"
+                            href="https://zumbidead.netlify.app"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn1">

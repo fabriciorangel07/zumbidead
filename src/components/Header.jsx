@@ -6,7 +6,7 @@ export default function Header() {
     <div>
       <header>
         <h1>
-          DeadZumbi - Chore ou sorria pelo seu Rank!
+          ZumbiDead - Chore ou sorria pelo seu Rank!
         </h1>
       </header>
     </div>

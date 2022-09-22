@@ -13,7 +13,7 @@ const Tabelas = props => {
             return (
                 <tr className={i % 2 === 0 ? "par" : "impar"} key={i}>
                     <td className="tbCenter"> {i + 1} </td>
-                    <td> {item.name.toUpperCase()} </td>
+                    <td>{item.name} </td>
                     <td className="tbright"> {item.point} pontos </td>
                 </tr>
             )
