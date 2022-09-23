@@ -23,16 +23,6 @@ export default function Dash() {
                         <h2>Tops Players</h2>
                         <MiniTable items={data} />
                     </div>
-                    <div className="graf3">
-                        <button onClick={() => getApi()} className="btn"><span>Atualizar</span></button>
-                        <a
-                            href="https://zumbidead.netlify.app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn1">
-                            <span>Jogar</span>
-                        </a>
-                    </div>
                 </div>
                 <div className="Classif">
                     <h2>Classificação</h2>

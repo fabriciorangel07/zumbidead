@@ -2,27 +2,32 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box ;
   list-style-type: none;
   text-decoration: none;
 }
 
 header {
+  display: flex;
+  text-align: end;
+  flex-direction: row;
+  justify-content: space-between;
   top: 2px;
-  text-align: center;
-  padding: 1rem;
+  padding: 1.3rem;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   position: fixed;
   width: 100%;
   top:0;
   z-index: 100;
-  background: rgb(255, 255, 250);
-  font-size: 16px;
+  background: rgb(124, 124, 122);
+  margin: 0;
 }
 
-header h1 {
+.titulo {
   color: rgb(58, 17, 17);
-  font-size: 2.5em;
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
+  font-weight: 600;
 }
 
 .tbCenter {
@@ -39,3 +44,63 @@ text-align: center;
 border-left: 1px solid rgb(83, 31, 31);
 }
 
+.graf3 {
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-left: 0;
+  margin-left: 120px;
+}
+
+.btn-att {
+  position: relative;
+  text-decoration: none;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  transition: 0.5s;
+  border-radius: 5px;
+  width: 180px;
+  text-align: center;
+  color: #fff;
+  margin-right: 8px;
+  }
+  
+  .btn-play {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    border-radius: 5px;
+    width: 180px;
+    text-align: center;
+    }
+  
+  .btn:hover, .btn1:hover {
+  letter-spacing: 0.05em;
+  color: #000;
+  font-weight: bold;
+  }
+  
+  .btn::before{
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: rgba(119, 18, 18, 0.5);
+  border-radius: 5px;
+  }
+  
+  .btn1::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: rgba(119, 18, 18, 0.5);
+    border-radius: 5px;
+    }
+  
+  .btn span, .btn1 span {
+  position: relative;
+  z-index: 1;
+  }  

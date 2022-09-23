@@ -23,7 +23,6 @@
   height: 80%;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   display: flex;
-  flex-direction: column;
 }
 
 .graf2 {
@@ -34,19 +33,7 @@
   flex-direction: column;
   margin-left: 10px;
   margin-top: 15px;
-}
-
-.graf3 {
-  width: 280px;
-  height: 200px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10px;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 .Classif {
@@ -66,7 +53,6 @@
 .graf1 h2 {
   color: rgb(0, 0, 0);
   margin-top: 15px;
-  margin-left: 80px;
 }
 
 .graf1 p {
@@ -77,8 +63,6 @@
 
 .tabela h2 {
   color: rgb(0, 0, 0);
-  margin-top: 15px;
-  margin-left: 80px;
 }
 
 
@@ -104,60 +88,3 @@
 .tabela .impar {
   background-color: rgba(87, 78, 78, 0.5);
 }
-
-.btn {
-position: relative;
-text-decoration: none;
-font-size: 1.2em;
-font-weight: bold;
-letter-spacing: 0.1em;
-padding: 10px 30px;
-margin-Top: 10px;
-transition: 0.5s;
-border-radius: 5px;
-width: 180px;
-text-align: center;
-color: #fff;
-}
-
-.btn1 {
-  position: relative;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2em;
-  letter-spacing: 0.1em;
-  padding: 10px 30px;
-  margin-Top: 10px;
-  transition: 0.5s;
-  border-radius: 5px;
-  width: 180px;
-  text-align: center;
-  }
-
-.btn:hover, .btn1:hover {
-letter-spacing: 0.05em;
-color: #000;
-font-weight: bold;
-}
-
-.btn::before{
-content: '';
-position: absolute;
-inset: 2px;
-background: rgba(119, 18, 18, 0.5);
-border-radius: 5px;
-}
-
-.btn1::before {
-  content: '';
-  position: absolute;
-  inset: 2px;
-  background: rgba(119, 18, 18, 0.5);
-  border-radius: 5px;
-  }
-
-.btn span, .btn1 span {
-position: relative;
-z-index: 1;
-}
-
